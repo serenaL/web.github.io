@@ -1,6 +1,8 @@
 
 body {
-    background: #f1f1f1;
+    background-color: #f1f1f1;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
   }
 
 h5 {
@@ -15,7 +17,7 @@ nav {
 
 container-fluid {padding:50px}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .container {
     height: auto;
     display: table;
@@ -28,12 +30,9 @@ container-fluid {padding:50px}
   }
 }
 
-/* .navbar li {
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    background: #fff;
-    border-radius: 3px;
-  } */
+@media screen and (max-width: 650px) {
+  .navbar-header {
+    background-color: lightseagreen;
+  }
+
+}
