@@ -10,6 +10,22 @@ h5 {
 
 nav {
     background-color: lightseagreen;
+    height: 50px;
+}
+
+container-fluid {padding:50px}
+
+@media screen and (max-width: 500px) {
+  .container {
+    height: auto;
+    display: table;
+  }
+  .item:nth-child(2) {
+    float: left;
+  }
+  .item:nth-child(3) {
+    float: right;
+  }
 }
 
 /* .navbar li {
