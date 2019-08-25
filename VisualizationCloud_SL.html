@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" > <!--style="background-color: lightseagreen !important"-->
+        <a class="navbar-brand img-fluid" href="index.html" style="max-width:55%"><img src="assets/images/lattitudelogo.png" class="img-fluid" alt="Lattitude"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="VisualizationTemp_SL.html">Max Temperature</a>
+                        <a class="dropdown-item" href="VisualizationHumidity_SL.html">Humidity</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="VisualizationCloud_SL.html">Cloudiness</a>
+                        <a class="dropdown-item" href="VisualizationWind_SL.html">Wind Speed</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparisons_SL.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="DataPage_SL.html">Data</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <div style="height: 90px;"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cloudiness</h5>
+                        <hr />
+                        <div class="col-sm">
+                        <a target="_blank" href="VisualizationCloud_SL.html">
+                            <img src="assets/images/Cloudymap.png" class="img-fluid" alt="Cloudy Map">
+                          </a>
+                        </div>
+
+                        <div class="col-sm">
+                        <p class="card-text text-wrap">
+                            There appears to be no relationship between cloudiness and latitude.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Visualizations</h5>
+                        <hr />
+                        <div class="container">
+                                <div class="row">
+                                  <div class="col" style="border-color: lightseagreen !important">
+                                        <a target="_blank" href="VisualizationTemp_SL.html">
+                                            <img src="assets/images/temperaturemap.png" class="img-fluid" alt="Temperature Map">
+                                          </a>
+                                  </div>
+                                  <div class="col">
+                                        <a target="_blank" href="VisualizationHumidity_SL.html">
+                                            <img src="assets/images/humiditymap.png" class="img-fluid" alt="Humidity Map">
+                                          </a>
+                                  </div>
+                                  <div class="w-100"></div>
+                                  <div class="col">
+                                         <a target="_blank" href="VisualizationCloud_SL.html">
+                                            <img src="assets/images/cloudymap.png" class="img-fluid" alt="Cloudy Map">
+                                        </a>
+                                  </div>
+                                  <div class="col">
+                                        <a target="_blank" href="VisualizationWind_SL.html">
+                                            <img src="assets/images/windmap.png" class="img-fluid" alt="Wind Map">
+                                          </a>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
